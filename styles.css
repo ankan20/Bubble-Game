@@ -131,8 +131,7 @@ html,body{
     height: 85%;
     overflow: hidden;
     border-radius: 10px;
-    /*background-color: aliceblue;*/
-    background-color:red;
+    background-color: aliceblue;
     box-shadow: 15px 15px  8px rgba(20, 20, 104, 0.79);
     }
     
