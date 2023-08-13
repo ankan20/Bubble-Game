@@ -106,7 +106,7 @@ html,body{
     
 }
 
-@media only screen and (max-width : 455px) {
+@media only screen and (max-width : 700px) {
     .elem{
     
         display: flex;
@@ -124,6 +124,15 @@ html,body{
         flex-wrap: wrap;
         gap: .4rem;
         
+    }
+
+    #panel{
+    width: 90%;
+    height: 85%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 15px 15px  8px rgba(20, 20, 104, 0.79);
     }
     
 }
