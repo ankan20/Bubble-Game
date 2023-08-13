@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#start {
+    height: 30px;
+    width: 75px;
+    font-size: 20px;
+    border: 2px solid blue;
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+#main{
+   width: 100%;
+   height: 100%;
+   background-color: rgba(8, 70, 255, 0.331);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#panel{
+    width: 85%;
+    height: 85%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 15px 15px  8px rgba(20, 20, 104, 0.79);
+}
+
+#ptop{
+    width: 100%;
+    height: 6.25rem;
+    padding: 10px;
+    background-color: rgba(45, 45, 193, 0.648);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: antiquewhite;
+}
+
+.elem{
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.elem h2{
+    font-weight:500 ;
+}
+
+.box{
+    color: rgba(50, 50, 192, 0.694);
+    font-weight: 700;
+    font-size: 23px;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-left: .6rem;
+}
+
+#pbtm{
+    width: 100%;
+    height: calc(100% - 6.25rem);
+    padding: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+}
+
+.bubble{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 100, 68);
+    color: azure;
+    font-weight: 500;
+    
+}
+
+.bubble:hover{
+    background-color: rgba(2, 26, 1, 0.9) ;
+    cursor: pointer;
+    /* height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition-delay: .2s; */
+    
+}
+
+@media only screen and (max-width : 455px) {
+    .elem{
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 0px;
+        
+    }
+    #pbtm{
+        width: 100%;
+        height: calc(100% - 6.25rem);
+        padding: 1.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: .4rem;
+        
+    }
+    
+}
