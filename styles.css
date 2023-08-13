@@ -115,9 +115,7 @@ html,body{
         gap: 0px;
         
     }
-    .elem h2{
-        font-size:35px;
-    }
+    
     #pbtm{
         width: 100%;
         height: calc(100% - 6.25rem);
